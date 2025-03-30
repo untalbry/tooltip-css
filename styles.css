@@ -1,0 +1,121 @@
+
+/* Estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Contenedor principal */
+.container {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Lista de elementos */
+ul {
+    padding: 8px;
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    border-radius: 4px;
+    border: 1px solid #3A3A3A;
+    align-items: flex-end;
+}
+
+/* Elementos de la lista */
+.item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    height: 32px;
+    width: 32px;
+    border-radius: 4px;
+}
+.item:hover {
+    background: #3A3A3A;
+}
+.item:hover .container {
+    background: #3A3A3A;
+}
+.item:hover .container .icon{
+    background: #3A3A3A;
+}
+/* Contenedor del ícono */
+.item .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Ícono SVG */
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Tooltip */
+.tooltip {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3A3A3A;
+    padding: 4px 4px;
+    border-radius: 4px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    min-width: 56px;
+    white-space: nowrap;
+}
+
+.item:hover .tooltip {
+    display: flex;
+}
+
+/* Texto del tooltip */
+.tooltip-text {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 4px;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+/* Atajo de teclado */
+.shortcut {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: transparent;
+}
+
+.key {
+    color: #7F7F7F;
+    font-size: 10px;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* Para asegurar que los SVG dentro del tooltip tengan un fondo transparente */
+.tooltip svg, 
+.shortcut svg {
+    background-color: transparent;
+}
+
