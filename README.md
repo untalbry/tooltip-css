@@ -14,7 +14,11 @@ Después de completar este proyecto, comprenderás mejor el posicionamiento CSS,
 > [!NOTE]
 > Este proyecto es obtenido de la página de <a href="https://roadmap.sh/projects/tooltip-ui">roadmap.sh</a>
 
-## Soluciones hechas por la comunidad
-|Usuario|Repositorio| Website | Figma|
-|-------|-----------|---------|------|
-|||||
+## Mi solución 🚀
+<div align="center">
+  <a href="https://codepen.io/untalbry/pen/OPJBKjz"> Previsualiza el componente en Codepen <br><br>
+    <img src="https://skillicons.dev/icons?i=codepen" />
+  </a>
+</div>
+
+![My solution img](https://github.com/user-attachments/assets/7ca162e9-c1ce-4de8-bd9d-14d3a08e1534)
